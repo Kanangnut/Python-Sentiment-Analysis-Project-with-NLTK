@@ -1,4 +1,4 @@
-# Python-Sentiment-Analysis-Project-with-NLTK and classify Amazon Reviews
+# Python Sentiment Analysis Project with Natural Language Toolkit (NLTK) for Classify Amazon Reviews
 
 In case you run NLTK for the first time must be install:<br>
   1.nltk.download('punkt') install<br>
