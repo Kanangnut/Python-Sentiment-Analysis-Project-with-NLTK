@@ -77,6 +77,14 @@ vaders = pd.DataFrame(res).T<br>
 vaders = vaders.reset_index().rename(columns={'index': 'Id'})<br>
 vaders = vaders.merge(df, how='left')<br>
 
+Run for check table of neg/neu/pos <br>
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/cff342e3-3fbe-47a4-ab0b-e8e75152cf13)
+
+#Plot VADER results: *I try to change axis y=Compound but found some error so i use axis y=compound instead. (can someone advise to me pls?)<br>
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/f4aea661-b6dc-46bb-b4b9-711c74bb8e46)
+
+
+
 
 
 
