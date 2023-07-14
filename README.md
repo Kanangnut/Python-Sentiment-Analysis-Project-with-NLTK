@@ -131,9 +131,11 @@ Extra: The Transformers Pipeline
 
 #The End
 
+_______________________________________________________________________________________________________________________________________
 
-
-
+Thank you for great tutorial
+Credit: Rob Mulla
+Youtube: https://www.youtube.com/watch?v=QpzMWQvxXWk&list=PLkG26X51yQi_NMeJCbAvCFxB8uaRfYBEx&index=78
 
 
 
