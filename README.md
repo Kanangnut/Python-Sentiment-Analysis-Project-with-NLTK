@@ -70,7 +70,7 @@ for i, row in tqdm(df.iterrows(), total=len(df)):<br>
     myid = row['Id']<br>
     res[myid] = sia.polarity_scores(text)<br>
 
-Run for check res DATAFRAME:
+Run for check neg/neu/pos DATAFRAME:
     ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/7446a9ad-1063-4e85-b037-59ca41a71c0f)
 
 
