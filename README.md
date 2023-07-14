@@ -120,6 +120,11 @@ Start with check table of result
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/c24b72fe-90be-4284-8b5b-899bd701ea46)
 
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/86f71af3-69cb-4144-97a2-722b829ce929)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/ed19dbac-0fad-4b23-add5-4fcce56940a0)
+
+Extra: The Transformers Pipeline
 
 
 
