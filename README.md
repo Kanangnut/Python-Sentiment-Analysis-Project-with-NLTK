@@ -55,7 +55,6 @@ NLTK for generate entitle:
 VADER_lexicon for NLTK sentiment:
 from nltk.sentiment import SentimentIntensityAnalyzer
 from tqdm.notebook import tqdm
-
 sia = SentimentIntensityAnalyzer()
 
 
