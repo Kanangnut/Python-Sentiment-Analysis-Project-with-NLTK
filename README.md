@@ -7,7 +7,7 @@ In case you run NLTK for the first time must be install:<br>
   4.nltk.download('words')<br>
   5.nltk.download('vader_lexicon')<br>
 
-Note: This project working on Lenovo 2in1 ideapad miix 520, window 10. <br>
+Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning. <br>
 
 Start!!
 For sentiment Analysis in Python of this project by using two different techniques:<br>
@@ -36,7 +36,7 @@ Then check Table result by:<br>
 df.head()<br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/729a3695-1be5-44cd-bc59-569a6b8f8378)
 
-Quick EDA<br>
+Quick EDA <br>
 df['Score'].value_counts().sort_index().plot(kind='bar', title='Count of Reviews by Starts', figsize=(8, 5))<br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/b2785148-b983-4146-896e-4da5d78ee3f2)
 
@@ -70,7 +70,7 @@ for i, row in tqdm(df.iterrows(), total=len(df)):<br>
     myid = row['Id']<br>
     res[myid] = sia.polarity_scores(text)<br>
 
-Run for check neg/neu/pos DATAFRAME:
+Run for check neg/neu/pos DATAFRAME:<br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/7446a9ad-1063-4e85-b037-59ca41a71c0f)
 
 vaders = pd.DataFrame(res).T<br>
