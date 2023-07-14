@@ -93,6 +93,10 @@ Step 2.Roberta Pretrained Model
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/e4fc52a6-f59c-4060-a37e-c8b3f7b6641e)
 
+Step 3. Run for Roberta Model
+
+ ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/1e0ad98e-3891-48c4-a241-cea709ef530b)
+
 
 
 
