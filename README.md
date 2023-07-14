@@ -105,11 +105,17 @@ Check input_ids first:
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/ac75466c-8913-474d-9a8c-6a20d280c88f)
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/da11437c-b9f2-4781-a270-46197eb28d0e)
+
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/5492f016-bd82-4682-a293-660e50799d59)
 
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/237f3a2c-84a6-429a-94ad-12802c23512d)
 
+Compare Scores between model
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/84672747-a850-4d11-a51b-f885b81fa9e0)
 
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/7cb9b911-028c-4aa4-9171-efcfa3e092c3)
 
+Step 4. Review Examples: Identify Positive 1-Star and Negative 5-Star Reviews and look at some examples where the model scoring and review score differ the most.
 
 
 
