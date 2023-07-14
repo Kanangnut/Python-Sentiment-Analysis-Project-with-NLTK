@@ -52,15 +52,23 @@ NLTK NLTK for generate postag:
 NLTK for generate entitle:
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/0b0d5f05-1467-4e4c-8376-f6893666e8a3)
 
+
+Step 1. VADER Seniment Score
+Use NLTK's SentimentIntensityAnalyzer to get the neg/neu/pos scores of the reviews.
+
 VADER_lexicon for NLTK sentiment:
 from nltk.sentiment import SentimentIntensityAnalyzer
 from tqdm.notebook import tqdm
 sia = SentimentIntensityAnalyzer()
 
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/9fd105e1-828d-41da-803b-de15107d76a8)
 
- 
-
-
+#Run the polarity score on the entire dataset
+res = {}
+for i, row in tqdm(df.iterrows(), total=len(df)):
+    text = row['Text']
+    myid = row['Id']
+    res[myid] = sia.polarity_scores(text)
 
 
 
