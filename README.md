@@ -116,6 +116,9 @@ Compare Scores between model
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/7cb9b911-028c-4aa4-9171-efcfa3e092c3)
 
 Step 4. Review Examples: Identify Positive 1-Star and Negative 5-Star Reviews and look at some examples where the model scoring and review score differ the most.
+Start with check table of result
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/c24b72fe-90be-4284-8b5b-899bd701ea46)
 
 
 
