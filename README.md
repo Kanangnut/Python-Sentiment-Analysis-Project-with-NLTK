@@ -56,19 +56,19 @@ NLTK for generate entitle:
 Step 1. VADER Seniment Score
 Use NLTK's SentimentIntensityAnalyzer to get the neg/neu/pos scores of the reviews.
 
-VADER_lexicon for NLTK sentiment:
-from nltk.sentiment import SentimentIntensityAnalyzer
-from tqdm.notebook import tqdm
-sia = SentimentIntensityAnalyzer()
+VADER_lexicon for NLTK sentiment: <br>
+from nltk.sentiment import SentimentIntensityAnalyzer<br>
+from tqdm.notebook import tqdm<br>
+sia = SentimentIntensityAnalyzer()<br>
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/9fd105e1-828d-41da-803b-de15107d76a8)
 
-#Run the polarity score on the entire dataset
-res = {}
-for i, row in tqdm(df.iterrows(), total=len(df)):
-    text = row['Text']
-    myid = row['Id']
-    res[myid] = sia.polarity_scores(text)
+#Run the polarity score on the entire dataset<br>
+res = {}<br>
+for i, row in tqdm(df.iterrows(), total=len(df)):<br>
+    text = row['Text']<br>
+    myid = row['Id']<br>
+    res[myid] = sia.polarity_scores(text)<br>
 
 
 
