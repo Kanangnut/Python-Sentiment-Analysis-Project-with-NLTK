@@ -85,7 +85,7 @@ Plot VADER results:<br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/f4aea661-b6dc-46bb-b4b9-711c74bb8e46)
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/b2c88862-47e3-4775-a1b3-49bdf3a8d5fe)
 
-Step 2.Roberta Pretrained Model
+Step 3.Roberta Pretrained Model
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/30ea7628-2c0f-4692-994f-116876dc79e1)
 
@@ -95,7 +95,20 @@ Step 2.Roberta Pretrained Model
 
 Step 3. Run for Roberta Model
 
- ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/1e0ad98e-3891-48c4-a241-cea709ef530b)
+Check input_ids first:
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/1e0ad98e-3891-48c4-a241-cea709ef530b)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/c1c47c74-6ace-4735-afa5-05ce53c09bc0)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/a7d8a949-9a44-47f5-942d-e4cda89cd8c4)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/ac75466c-8913-474d-9a8c-6a20d280c88f)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/da11437c-b9f2-4781-a270-46197eb28d0e)
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/5492f016-bd82-4682-a293-660e50799d59)
+
+
+
 
 
 
