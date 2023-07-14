@@ -80,16 +80,19 @@ vaders = vaders.merge(df, how='left')<br>
 Run for check table of neg/neu/pos <br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/cff342e3-3fbe-47a4-ab0b-e8e75152cf13)
 
-Step 2. Plot VADER results:<br>
+Plot VADER results:<br>
 *I try to change axis y=Compound but found some error so i use axis y=compound instead. (can someone advise to me pls?)<br>
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/f4aea661-b6dc-46bb-b4b9-711c74bb8e46)
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/b2c88862-47e3-4775-a1b3-49bdf3a8d5fe)
 
-Step 3.Roberta Pretrained Model
+Step 2.Roberta Pretrained Model
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/30ea7628-2c0f-4692-994f-116876dc79e1)
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/1e86e288-6620-4c7f-b9a9-82d7d74bea00)
+
+![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/e4fc52a6-f59c-4060-a37e-c8b3f7b6641e)
+
 
 
 
