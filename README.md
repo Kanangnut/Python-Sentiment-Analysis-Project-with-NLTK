@@ -7,7 +7,7 @@ In case you run NLTK for the first time must be install:<br>
   4.nltk.download('words')<br>
   5.nltk.download('vader_lexicon')<br>
 
-Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning. <br>
+Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
 
 Start!!<br>
 For sentiment Analysis in Python of this project by using two different techniques:<br>
