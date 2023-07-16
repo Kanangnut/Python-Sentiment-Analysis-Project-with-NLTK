@@ -134,8 +134,8 @@ Extra: The Transformers Pipeline
 
 _______________________________________________________________________________________________________________________________________
 
-Thank you for great tutorial
-Credit: Rob Mulla
+Thank you for great tutorial<br>
+Credit: Rob Mulla <br>
 Youtube: https://www.youtube.com/watch?v=QpzMWQvxXWk&list=PLkG26X51yQi_NMeJCbAvCFxB8uaRfYBEx&index=78
 
 
