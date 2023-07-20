@@ -8,6 +8,7 @@ In case you run NLTK for the first time must be install:<br>
   5.nltk.download('vader_lexicon')<br>
   6. pip install Xformers<br>
 
+Open source models for NLP: https://huggingface.co/models. 
 Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
 
 Start!!<br>
@@ -132,6 +133,9 @@ Extra: The Transformers Pipeline
 
 #The End
 
+_______________________________________________________________________________________________________________________________________________________________
+Thank you Rob Mulla for great tutorial.
+https://www.youtube.com/@robmulla
 
 
 
