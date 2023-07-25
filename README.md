@@ -6,7 +6,7 @@ In case you run NLTK for the first time must be install:<br>
   3.nltk.download('maxent_ne_chunker')<br>
   4.nltk.download('words')<br>
   5.nltk.download('vader_lexicon')<br>
-  6. pip install Xformers<br><br>
+  6. pip install Xformers<br>
 
 Open source models for NLP: https://huggingface.co/models. Import data from CSV file.<br>
 Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
