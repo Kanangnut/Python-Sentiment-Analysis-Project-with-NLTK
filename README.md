@@ -1,13 +1,5 @@
 # Python Sentiment Analysis Project with Natural Language Toolkit (NLTK) for Classify Amazon Reviews
 
-In case you run NLTK for the first time must be install:<br>
-  1.nltk.download('punkt') install<br>
-  2.nltk.download('averaged_perceptron_tagger')<br>
-  3.nltk.download('maxent_ne_chunker')<br>
-  4.nltk.download('words')<br>
-  5.nltk.download('vader_lexicon')<br>
-  6. pip install Xformers<br>
-
 Open source models for NLP: https://huggingface.co/models. Import data from CSV file.<br>
 Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
 
@@ -131,7 +123,14 @@ Extra: The Transformers Pipeline
 
 ![image](https://github.com/Kanangnut/Python-Sentiment-Analysis-Project-with-NLTK/assets/130201193/242c1213-fe47-4cb7-9a15-7490f96cf3d7)
 
-#The End
+Requirment: <br>
+punkt <br>
+averaged_perceptron_tagger<br>
+maxent_ne_chunker <br>
+words <br>
+vader_lexicon <br>
+Xformers <br>
+
 
 _______________________________________________________________________________________________________________________________________________________________
 Thank you Rob Mulla for great tutorial.
