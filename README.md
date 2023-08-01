@@ -1,7 +1,6 @@
 # Python Sentiment Analysis Project with Natural Language Toolkit (NLTK) for Classify Amazon Reviews
 
 Open source models for NLP: https://huggingface.co/models. Import data from CSV file.<br>
-Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
 
 Start!!<br>
 For sentiment Analysis in Python of this project by using two different techniques:<br>
@@ -130,7 +129,8 @@ maxent_ne_chunker <br>
 words <br>
 vader_lexicon <br>
 Xformers <br>
-
+<br>
+Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
 
 _______________________________________________________________________________________________________________________________________________________________
 Thank you Rob Mulla for great tutorial.
