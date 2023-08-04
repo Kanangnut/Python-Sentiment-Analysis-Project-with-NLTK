@@ -130,11 +130,5 @@ words <br>
 vader_lexicon <br>
 Xformers <br>
 <br>
-Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace. <br>
-
-_______________________________________________________________________________________________________________________________________________________________
-Thank you Rob Mulla for great tutorial.
-https://www.youtube.com/@robmulla
-
-
+Note: This project working on Lenovo 2in1 ideapad miix 520, window 10, Azure machine learning workspace.
 
