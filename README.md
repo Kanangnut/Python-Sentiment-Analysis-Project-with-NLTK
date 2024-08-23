@@ -37,7 +37,6 @@ This project effectively demonstrates how different sentiment analysis models ca
    - **Matplotlib & Seaborn**: For creating visualizations to explore and compare sentiment scores.
    - **VADER (Valence Aware Dictionary and sEntiment Reasoner)**: A lexicon and rule-based sentiment analysis tool that is specifically tuned for social media text. It provides sentiment scores directly for each review.
    - **Hugging Face Transformers Library**: Used to implement the Roberta model for sentiment analysis, allowing for a more context-aware understanding of the reviews.
-   - **Scikit-learn**: For any additional data processing or evaluation metrics (if applicable).
 
 #### 2. **Technical Aspects**:
    - **Sentiment Analysis**:
