@@ -1,8 +1,8 @@
 # Python Sentiment Analysis Project with Natural Language Toolkit (NLTK) for Classify Amazon Reviews
 
+## Credit
 Open source models for NLP: https://huggingface.co/models. Import data from CSV file.<br>
 
-Start!!<br>
 For sentiment Analysis in Python of this project by using two different techniques:<br>
 1.VADER (Valence Aware Dictionary and Sentiment Reasoner)<br>
 2.Roberta Pretrained Model<br>
