@@ -29,6 +29,39 @@ Open source models for NLP: https://huggingface.co/models. Import data from CSV 
 
 This project effectively demonstrates how different sentiment analysis models can be applied to text data, providing insights into customer feedback by quantifying the sentiment of their reviews.
 
+## Tools and Technical Aspects:
+
+#### 1. **Tools Used**:
+   - **Python**: The primary programming language used for data manipulation, analysis, and visualization.
+   - **Pandas**: For data loading, cleaning, and manipulation.
+   - **Matplotlib & Seaborn**: For creating visualizations to explore and compare sentiment scores.
+   - **VADER (Valence Aware Dictionary and sEntiment Reasoner)**: A lexicon and rule-based sentiment analysis tool that is specifically tuned for social media text. It provides sentiment scores directly for each review.
+   - **Hugging Face Transformers Library**: Used to implement the Roberta model for sentiment analysis, allowing for a more context-aware understanding of the reviews.
+   - **Scikit-learn**: For any additional data processing or evaluation metrics (if applicable).
+
+#### 2. **Technical Aspects**:
+   - **Sentiment Analysis**:
+     - **VADER Sentiment Analysis**:
+       - Provides quick and easy sentiment scoring by evaluating each word in the text against a predefined lexicon.
+       - Outputs four scores: positive, neutral, negative, and compound.
+     - **Roberta Sentiment Analysis**:
+       - Uses a pre-trained transformer-based model that understands the context of words in the text.
+       - Outputs probabilities for each sentiment class (positive, neutral, and negative).
+  
+   - **Data Visualization**:
+     - **Bar Plots and Distribution Plots**: Used to compare sentiment scores across different star ratings, providing insights into the relationship between the ratings and the sentiment scores.
+     - **Side-by-Side Comparisons**: Visualizations comparing VADER and Roberta results help in understanding how different models interpret the sentiment of the same text.
+
+#### 3. **Process**:
+   - **Data Loading**: The first 500 rows of the Amazon reviews dataset are loaded for analysis.
+   - **Preprocessing**: Basic cleaning and preparation of the text data, if required.
+   - **Sentiment Scoring**:
+     - **VADER**: Applied directly to the text data to obtain sentiment scores.
+     - **Roberta**: Text data is tokenized and passed through the pre-trained Roberta model to obtain sentiment probabilities.
+   - **Visualization and Analysis**:
+     - Sentiment scores are analyzed and visualized to understand their distribution and correlation with star ratings.
+     - Comparison between VADER and Roberta to highlight differences in sentiment scoring.
+
 ## Project Step
 Step 0. Read in Data and NLTK (Natural Language Toolkit)<br>
 import pandas as pd<br>
