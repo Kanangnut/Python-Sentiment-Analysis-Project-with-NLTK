@@ -1,13 +1,35 @@
 # Python Sentiment Analysis Project with Natural Language Toolkit (NLTK) for Classify Amazon Reviews
 
-## Credit
+### Credit
 Open source models for NLP: https://huggingface.co/models. Import data from CSV file.<br>
 
-For sentiment Analysis in Python of this project by using two different techniques:<br>
-1.VADER (Valence Aware Dictionary and Sentiment Reasoner)<br>
-2.Roberta Pretrained Model<br>
-3.Huggingface Pipeline<br>
+### Project Overview:
+1. **Data Loading and Exploration**:
+   - The dataset contains Amazon product reviews, and only the first 500 rows are used.
+   - An initial exploratory data analysis (EDA) visualizes the distribution of review scores.
 
+2. **Sentiment Analysis with VADER**:
+   - VADER (Valence Aware Dictionary and sEntiment Reasoner) is used to analyze the sentiment of each review.
+   - Each review is scored with four metrics:
+     - **Negative (neg)**: Represents the proportion of the text that is negative.
+     - **Neutral (neu)**: Represents the proportion of the text that is neutral.
+     - **Positive (pos)**: Represents the proportion of the text that is positive.
+     - **Compound**: A normalized score that summarizes the overall sentiment; ranges from -1 (most negative) to 1 (most positive).
+
+3. **Sentiment Analysis with Roberta**:
+   - The project also uses the Roberta pretrained model, which is a transformer-based model, to provide a more context-aware sentiment analysis.
+   - Roberta generates similar scores for each review:
+     - **roberta_neg**: Probability of the text being negative.
+     - **roberta_neu**: Probability of the text being neutral.
+     - **roberta_pos**: Probability of the text being positive.
+
+4. **Comparison of Results**:
+   - The project compares VADER and Roberta results, highlighting how each model scores the sentiment.
+   - Visualization of the sentiment scores by review star ratings is done using bar plots.
+
+This project effectively demonstrates how different sentiment analysis models can be applied to text data, providing insights into customer feedback by quantifying the sentiment of their reviews.
+
+## Project Step
 Step 0. Read in Data and NLTK (Natural Language Toolkit)<br>
 import pandas as pd<br>
 import numpy as np<br>
